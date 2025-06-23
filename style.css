@@ -1,69 +1,45 @@
 body {
+  background-color: #e6fff9;
   font-family: Arial, sans-serif;
+  text-align: center;
   margin: 0;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-header {
-  background-color: #005c99;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
   padding: 0;
-  display: flex;
+}
+
+.header {
+  background-color: #3399ff;
+  padding: 20px 0;
+}
+
+.header h1 {
+  color: #ffff66;
+  font-size: 36px;
+  margin: 0;
+}
+
+.button-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
   justify-content: center;
-  margin-top: 10px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
+.subject-button {
+  background-color: #3399ff;
+  color: #ffff66;
+  border: none;
+  padding: 20px 0;
+  font-size: 24px;
   font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-main {
-  padding: 20px;
-}
-
-section {
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-.categorias {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.categoria {
-  flex: 1;
-  min-width: 200px;
-}
-
-.categoria h3 {
-  border-bottom: 2px solid #ccc;
-}
-
-.categoria ul {
-  list-style: square;
-  padding-left: 20px;
-}
-
-footer {
-  text-align: center;
-  padding: 15px;
-  background-color: #222;
-  color: white;
+.subject-button:hover {
+  background-color: #1f7dd1;
 }
