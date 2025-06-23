@@ -18,10 +18,10 @@ body {
 }
 
 .button-container {
-  margin-top: 90px;
+  margin-top: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  gap: 30px;
   justify-content: center;
   max-width: 300px;
   margin-left: auto;
